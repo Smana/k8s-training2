@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     run: echoheaders
+    test: razee
   name: echoheaders
 spec:
   replicas: 1
