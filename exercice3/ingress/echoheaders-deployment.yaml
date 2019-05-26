@@ -6,7 +6,7 @@ metadata:
     test: razee
   name: echoheaders
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       run: echoheaders
