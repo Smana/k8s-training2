@@ -4,6 +4,7 @@ metadata:
   labels:
     run: echoheaders
     test: razee
+    razee/watch-resource: detail
   name: echoheaders
 spec:
   replicas: 5
